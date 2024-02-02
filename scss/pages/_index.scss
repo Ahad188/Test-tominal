@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+  
+main{
+     // border: 2px solid black;
+     margin-top: 40px;
+}
+.sub-title{
+     width: 100px;
+     height: 26px;
+     left: calc(50% - 100px/2 - 535px);
+     top: 4662px;
+     font-family: 'Space Grotesk';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 26px;
+     text-transform: uppercase;
+     color: #FF5A30;
+}
+.sub-heading{
+     width: 220px;
+     height: 40px;
+     left: calc(50% - 220px/2 - 475px);
+     top: 4698px;
+     font-family: 'Space Grotesk';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 30px;
+     line-height: 40px;
+     color: #001F3F;
+}
+.sub-sec{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+// testimonial
+.testimonial{
+     margin-top: 40px;
+     display: flex;
+     // justify-content: space-between;
+     align-items: center;
+     .test-left{
+          // border: 2px solid red;
+     }
+     .test-right{
+          width: 870px;
+          height: 379px;
+          border-radius: 5px;
+          margin-left: -250px;
+          box-sizing: border-box;
+          background: #FFFFFF;
+          border: 1px solid #C1D4E8;
+          border-radius: 20px;
+          .content{
+               width: 770px;
+               margin: 30px auto;
+               padding: 10px;
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               border-bottom: 2px solid rgb(195, 189, 189);
+          }
+          .pera{
+               margin-left: 50px;
+               width: 758px;
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 26px;
+               color: #435970;
+          }
+          .star{
+               margin-left: 50px;
+               margin-top: 40px;
+          }
+     }
+}
+// video
+.video{
+     width: 100wh;
+     margin: 50px 0;
+   
+     position: relative;  
+     img{
+          width: 100%;
+          
+     }
+     &::before{
+          position: absolute;
+          content: url('../../img/Play-Button.png');
+          width: 60px;
+          height: 60px;
+          left: 45%;
+          top: 35%;
+     }
+      
+}
+// cart
+.card{
+     box-sizing: border-box;
+     border: 2px solid #C1D4E8;
+     border-radius: 30px;
+
+     // padding: 10px;
+     /* Jonson Carry */
+     .card-img{
+          // border: 2px solid black;
+          img{
+               width: 100%;
+          }
+     }
+.card-text{
+     margin-left: 10px;
+     .json{
+          display: flex;
+          gap: 30px;
+          text-align: center;
+          padding: 10px 20px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: #001F3F; 
+     }
+     .c-title{
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 30px;
+     color: #001F3F;
+     width: 272px;
+     }
+     
+     .c-pera{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     color: #435970;
+     width: 324px;
+     margin-top: 15px;
+     
+     }
+     .read-more{
+          width: 279px;
+          height: 60px;
+          // border: 2px solid red;
+          background: #001F3F;
+          border-radius: 30px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 26px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          margin: 20px 0;
+          
+          a{
+               text-decoration: none;
+               color: #fff;  
+          }
+         
+          }
+}
+}
+ 
+ 
+ 
